@@ -1,0 +1,123 @@
+@media screen and ( max-width:576px){
+    .header-main{
+        width: 90%;
+        margin: 0px auto 10px;}
+        .navbar {
+          margin-top: 5%;
+            }
+
+
+        ul{
+            gap: 1rem;
+        }
+        .header-main-child{
+            width: 100%;
+            margin: 0% auto ;
+            display: flex;
+            flex-direction: column;
+
+    }
+    .one-child{
+        width: 100%;
+    }
+    .two-child{
+        width: 100%;
+        margin: 0px 10px;
+        
+
+    }
+    /* .image{
+        width: 70%;
+       margin-top: 12px;
+       
+       
+    } */
+    .title{
+        font-size: 1.6rem;
+    text-align: center;
+        margin: 25px auto;
+    }
+    .btn-div{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+        padding:0px 2px ;
+    }
+    .btn-1{
+        margin:0px 12px ;
+        width: 130px;
+        }
+    .btn-2{
+        width: 130px;
+        margin:0px 12px ;
+    }
+    .paragraph{
+        font-size: 0.7rem;
+        letter-spacing: 0.7px;
+        line-height: 0.8rem;
+        text-align: center;
+    
+    }
+    .section-one, .section-two, .section-three, .section-four, .section-five, .section-six, .header-main{
+        width: 90%;
+    
+    }
+    .child-section{
+        margin-bottom: 20px;
+    }
+    .para{
+        font-size: 0.7rem;
+        word-spacing: 0.7px;
+        letter-spacing: 0.6px;
+    }
+    .h22{
+        margin: 12px auto;
+        font-size: 1.6rem;
+        font-weight: 600;
+        margin-left: 0px;
+    }
+    .section-container{
+        grid-template-columns: repeat(2, 1fr);
+      
+    }
+    .pic{
+      margin-bottom: 10px;
+        }
+        .section-two{
+           flex-direction: column;
+          }
+          .h4{
+            font-size: 1.6rem;
+            text-align: center;
+                margin: 25px auto;
+          }
+            
+        
+          .banner-part p{
+           text-align: center;
+           width: 100%;
+           
+          }
+          .image-bg{
+            width: 100%;
+          }
+          .image-bg img{
+            border-radius: 1.2rem;
+          }
+          .banner-part-1{
+            width: 90%;
+          
+          } 
+          .btn-run{
+          
+            background-color: red;
+            padding: 2%;
+            border-radius: 40px;
+            margin:15px 15px 30px 15px;
+            width: 150px;
+            
+          } 
+
+    
+}
+   
