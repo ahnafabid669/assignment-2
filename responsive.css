@@ -77,14 +77,19 @@
         margin-left: 0px;
     }
     .section-container{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        width: 80%;
+        margin: 6% auto;
       
     }
     .pic{
-      margin-bottom: 10px;
+      margin: 6% auto;
+      width: 100%;
+
         }
         .section-two{
            flex-direction: column;
+           margin-top: 60%;
           }
           .h4{
             font-size: 1.6rem;
@@ -99,7 +104,7 @@
            
           }
           .image-bg{
-            width: 100%;
+            width: 90%;
           }
           .image-bg img{
             border-radius: 1.2rem;
@@ -117,6 +122,58 @@
             width: 150px;
             
           } 
+          .section-six{
+            width: 90%;
+            margin: 6% auto;
+          }
+          .picture-section div{
+            width: 316px;
+            height: 272px;
+            border-radius: 18px;
+            }
+            .picture-section{
+              display: grid;
+              grid-template-columns: 1fr;
+              gap: 1%;
+            
+            }
+            .section-seven{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 5% auto;
+                width: 90%;
+              }
+              .sec-1 ,.div-1 ,.div-2{
+                width: 90%;
+                margin: 5% auto;
+            
+              }
+              .lal{
+                margin-top: 10%;
+                font-size: 4.5rem;
+                
+              }
+              .sec-2{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+              }
+              .section-five{
+                width: 90%;
+                margin: 5% auto;
+                flex-direction: column;
+                gap: 4%;
+              }
+              .search-boxes{
+                width: 90%;
+                margin: 5% auto;
+              }
+              .banner-part .h1{
+                font-size: 2rem;
+              }
+             
+       
 
     
 }
